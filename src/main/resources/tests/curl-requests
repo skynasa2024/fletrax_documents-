@@ -1,0 +1,6 @@
+curl --location 'http://localhost:8899/api/v1/documents/upload' \
+--form 'file=@"ESjqbqXEI/mostafa.pdf"' \
+--form 'relatedEntityId="12345"' \
+--form 'relatedEntityType="car"'
+
+curl --location 'http://localhost:8899/api/v1/documents/d2aab9d6-eb4b-4b9a-b144-6e0812f184c0'
